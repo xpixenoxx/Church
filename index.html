@@ -51,6 +51,11 @@ h3{font-weight:500;font-size:32px;letter-spacing:.06em;text-transform:uppercase;
 .welcome{padding:100px 0 150px;border-bottom:1px solid #e3e3e3}
 .welcome .btn{margin-top:66px}
 
+/* sermon highlight */
+.sermon-highlight{padding:80px 0 120px;border-bottom:1px solid #e3e3e3;text-align:center}
+.sermon-photo-wrap{max-width:960px;margin:0 auto}
+.sermon-photo{width:100%;height:auto;aspect-ratio:1303/1207;border-radius:4px;display:block;margin:0 auto;box-shadow:0 12px 36px rgba(12,15,58,.08);object-fit:cover}
+
 /* prayer split */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;padding:100px 0}
 .split h2{margin-bottom:56px}
@@ -91,6 +96,7 @@ h3{font-weight:500;font-size:32px;letter-spacing:.06em;text-transform:uppercase;
  .two{justify-content:center}
  .bar{font-size:13px;padding:12px 40px}
  .member{flex-direction:column}
+ .sermon-highlight{padding:50px 0 70px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
 
@@ -222,6 +228,12 @@ header{color:#fff;position:absolute!important;top:0;left:0;right:0;z-index:5!imp
  <section class="welcome" id="welcome">
   <p class="lead"><strong>Welcome home!</strong> Wherever you come from, whatever language you pray in, you belong here. Our worship is simple: it is all about Jesus. Come and join us for songs of praise, teaching from the Bible and the good news of God's love.</p>
   <a class="btn" href="#resources">Watch past sermons</a>
+ </section>
+
+ <section class="sermon-highlight" id="sermon">
+  <div class="sermon-photo-wrap">
+   <img class="sermon-photo" src="Warm%20Sermon%20Beneath%20the%20Cross.png" alt="Pastor delivering a sermon beneath the cross">
+  </div>
  </section>
 
  <section class="block" id="know">
